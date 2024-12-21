@@ -153,7 +153,7 @@ public class SeleniumInterviewPrepScenarios {
 		driver = new ChromeDriver(options);
 		driver.get("https://expired.badssl.com/");
 		System.out.println("Title: " + driver.getTitle());
-
+		Sysytem.out.println("Title is printed above");
 	}
 
 }
